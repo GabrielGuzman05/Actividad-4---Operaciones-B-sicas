@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+<title>Operaciones Básicas con JS</title>
+<meta charset="UTF-8">
+<!-- Enlazamos los estilos CSS-->
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<!-- Creamos un DIV para contener el formulario -->
+<div id="form">
+<span>Ingrese números:</span>
+<!-- Creamos dos input para recuperar los datos
+ingresados por el usuario -->
+<input id="input-uno" type="number">
+<select id="operacion" name="operacion">
+    <option value="Sumar" selected>Sumar</option>
+    <option value="Restar">Restar</option>
+    <option value="Multiplicar">Multiplicar</option>
+    <option value="Dividir">Dividir</option>
+  </select>
+<input id="input-dos" type="number">
+<!-- Creamos un botón con el fin de invocar la operación -->
+<button id="btn">Calcular</button>
+</div>
+<!-- Creamos in DIV que permita mostrar el resultado de la operación -->
+<div id="resultado"></div>
+<!-- Enlazamos el código JS -->
+<script src="js/calc.js"></script>
+</body>
+</html>
